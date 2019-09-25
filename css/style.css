@@ -1,0 +1,200 @@
+/* General Styling */
+h1, h2, h3, h4, h5, h6, a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Logo Dimension */
+.logo-size {
+  width: 12rem;
+}
+
+.header-wrapper {
+  background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 1), rgba(105, 105, 105, 0.4)), url(../images/header-image.jpg);
+  background-size: cover;
+  height: 50%;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: transparent !important;
+  border: 0;
+  padding-top: 1.5rem;
+}
+
+.navbar .nav-item a {
+  color: #fff !important;
+}
+
+.navbar .nav-item a:hover {
+  color: #fde428 !important;
+}
+
+.login {
+  background-color: #fde428;
+  border: 0;
+  font-weight: bold;
+}
+
+.login:hover {
+  background-color: #fdd228;
+  border: 0;
+  font-weight: bold;
+}
+
+.signup {
+  background-color: #002e58;
+  border: 0;
+  font-weight: bold;
+}
+
+.signup:hover {
+  background-color: #00365b;
+  border: 0;
+  font-weight: bold;
+}
+
+.hero-header {
+  color: #fff;
+}
+
+.hero-content {
+  color: #fff;
+}
+
+.timer-text {
+  color: #fde428
+}
+
+.play {
+  background-color: #fde428;
+  border: 0;
+  font-weight: bold;
+}
+
+.play:hover {
+  background-color: #fdd228;
+  border: 0;
+  font-weight: bold;
+}
+
+.image-lady {
+  width: 100%;
+}
+
+/* End of header styles */
+
+.process {
+  background-color: #fff;
+  text-align: center;
+}
+
+.process-heading {
+  color: #fdd228;
+}
+
+.cta-1, .cta-2 {
+  background-color: #fdd228;
+}
+
+.cta-btn {
+  color: #fff;
+  border-color: #fff;
+  border-width: 0.1rem;
+}
+
+.cta-btn:hover {
+  background-color: #002e58;
+  border: 0;
+}
+
+.icon-cta {
+  color: #002e58;
+}
+
+.left-feature {
+  background-image: url(../images/shopping-bag.jpg);
+  background-size: cover;
+}
+
+.right-feature {
+  background-image: linear-gradient(to top right, rgba(1,46,98, 0.9), rgba(7,97,164, 0.9)), url(https://shopaholiclimited.ng/wp-content/uploads/2019/09/shutterstock-150260165.png);
+}
+
+.right-feature-header {
+  color: #fff;
+}
+
+.icon-feature {
+  color: #fdd228;
+}
+
+.cta-2-btn {
+  background-color: #002e58;
+  color: #fff;
+  border: 0;
+}
+
+.cta-2-btn:hover {
+  background-color: #fff;
+  color: #002e58;
+  border: 0;
+}
+
+.cta-3 {
+  background-color: #002e58;
+}
+
+.cta-3-btn {
+  background-color: #fdd228;
+  color: #fff;
+  border: 0;
+}
+
+.cta-3-btn:hover {
+  background-color: #fff;
+  color: #fdd228;
+  border: 0;
+}
+
+.footer-section {
+  background-color: #110c11;
+  text-transform: capitalize;
+}
+
+a.footer-section-link {
+  color: #fff;
+}
+
+a.footer-section-link:hover {
+  color: #fdd228;
+}
+
+.icon-footer {
+  color: #fff;
+}
+
+.icon-footer:hover {
+  color: #002e58;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 576px) {
+
+  .header-content {
+    display: block;
+    text-align: center;
+  }
+
+  .image-lady {
+    display: none;
+  }
+
+  .mobile-cta-1, .right-feature, .cta-2, .cta-3, .footer-section {
+    text-align: center;
+  }
+
+}
