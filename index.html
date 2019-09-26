@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body onload="getSeconds()">
 
   <!-- Navigation Bar  -->
   <div class="header-wrapper">
@@ -50,9 +50,9 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-6 mg-lg-t-90 mg-md-t-50 mg-sm-t-60 mg-sm-b-40 mg-t-60 mg-b-40 header-content">
-          <h2 class="tx-lg-40 tx-md-30 tx-sm-25 tx-bold hero-header">PLAY. WIN. SHOP.</h2>
+          <h2 class="tx-lg-40 tx-md-30 tx-sm-25 tx-bold hero-header">PLAY. <span style="color: #fde428;">WIN.</span> SHOP.</h2>
           <p class="tx-20 tx-medium hero-content">You are a ticket away from winning your dream shopping experience.</p>
-          <p class="tx-20 tx-medium hero-content">Next draw in <span class="timer-text tx-lg-30 tx-md-25 tx-sm-20 tx-medium">5d 12h 13m 15s</span> </p>
+          <p class="tx-20 tx-medium hero-content">Next draw in <span class="timer-text tx-lg-30 tx-md-25 tx-sm-20 tx-medium" id= "countdown"></span> </p>
           <button type="button" class="btn btn-primary rounded-pill pd-r-35 pd-l-35 pd-t-10 pd-b-10 mg-sm-b-30 tx-md-15 play">Play Now</button>
         </div>
         <div class="col-lg-6 col-md-6"><img src="images/lady.png" alt="Shopaholic Limited" class="image-lady mg-lg-t-55 mg-md-t-50"></div>
@@ -202,6 +202,7 @@
 
   </section>
 
+  <script src="js/script.js" charset="utf-8"></script>
   <script src="js/jquery.min.js" charset="utf-8"></script>
   <script src="js/bootstrap.bundle.min.js" charset="utf-8"></script>
   <script src="js/feather.min.js" charset="utf-8"></script>
