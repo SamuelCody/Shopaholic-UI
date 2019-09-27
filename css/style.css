@@ -20,7 +20,7 @@ p {
 
 /* Navigation Bar Styles */
 .navbar {
-  background-color: transparent !important;
+  background-color: transparent;
   border: 0;
   padding-top: 1.5rem;
 }
@@ -31,6 +31,14 @@ p {
 
 .navbar .nav-item a:hover {
   color: #fde428 !important;
+}
+
+/* Solid color attached on scroll */
+
+.solid {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 2px grey;
 }
 
 .login {
