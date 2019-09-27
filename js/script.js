@@ -1,3 +1,17 @@
+// Navbar transition on scroll
+$(document).ready(function() {
+        // Transition effect for navbar
+        $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+          if($(this).scrollTop() > 50) {
+              $('nav').addClass('solid');
+          } else {
+              $('nav').removeClass('solid');
+          }
+        });
+});
+
+
 var curday;
 var secTime;
 var ticker;
