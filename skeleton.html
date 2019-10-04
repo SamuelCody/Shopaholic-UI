@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopaholic Skeleton</title>
+
+  <!-- Font Awesome & Ionicons -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <!-- DashForge Css -->
+  <link rel="stylesheet" href="css/dashforge.css">
+  <!-- Additional Css -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:400,600&display=swap" rel="stylesheet">
+  <!-- Animation Css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="getSeconds()">
+
+  <!-- Navigation Bar  -->
+  <div class="header-wrapper pd-t-70">
+    <!-- Additional padding added - pd-t-70 to cover up
+    for the space the fixed-top class took. So it can be removed when fixed-top class is absent -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-gray-100 bd">
+      <a class="navbar-brand tx-bold tx-spacing--2 mg-lg-l-50 mg-md-l-40 order-1" href="#"><img src="images/white_logo.png" alt="Shopaholic" class="logo-size"></a>
+      <button class="navbar-toggler order-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i data-feather="menu" class="wd-20 ht-20"></i>
+      </button>
+
+      <div class="collapse navbar-collapse order-2" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mg-l-auto">
+          <li class="nav-item active pd-r-15">
+            <a class="nav-link tx-15 tx-medium" href="#">About Game <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item pd-r-15">
+            <a class="nav-link tx-15 tx-medium" href="#">How To Play</a>
+          </li>
+          <li class="nav-item pd-r-15">
+            <a class="nav-link tx-15 tx-medium" href="#">FAQ</a>
+          </li>
+          <li class="nav-item pd-r-15">
+            <a class="nav-link tx-15 tx-medium" href="#">Become An Agent</a>
+          </li>
+          <button type="button" class="btn btn-primary mg-r-8 pd-r-35 pd-l-35 login">Login</button>
+          <button type="button" class="btn btn-primary mg-r-8 pd-r-35 pd-l-35 signup">Signup</button>
+        </ul>
+      </div>
+    </nav>
+    <!-- End of navigation bar -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 mg-lg-t-50 mg-md-t-50 mg-sm-t-60 mg-sm-b-40 mg-t-60 mg-b-40 header-content">
+          <nav aria-label="breadcrumb" class="pd-t-20 pd-b-10 breadcrumb-mobile">
+            <ol class="breadcrumb breadcrumb-style1 mg-b-0">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Library</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>
+          <h2 class="tx-lg-40 tx-md-30 tx-sm-25 tx-bold hero-header">PAGE <span style="color: #fde428;">TITLE</span></h2>
+          <!-- <p class="tx-20 tx-medium hero-content">You are a ticket away from winning your dream shopping experience.</p>
+          <p class="tx-20 tx-medium hero-content">Next draw in <span class="timer-text tx-lg-30 tx-md-25 tx-sm-20 tx-medium" id="countdown"></span> </p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="pd-t-50 pd-b-50 pd-l-50 pd-r-50">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget. Sed turpis tincidunt id aliquet. Mauris
+      commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Adipiscing at in tellus integer feugiat. Pellentesque massa placerat duis ultricies. Orci phasellus egestas tellus rutrum tellus pellentesque. Ac odio tempor orci dapibus ultrices.
+      Sit amet tellus cras adipiscing enim. Massa ultricies mi quis hendrerit dolor magna. Pulvinar elementum integer enim neque volutpat ac tincidunt.
+    </p>
+
+    <p>
+      Sit amet aliquam id diam maecenas ultricies mi eget mauris. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Eu facilisis sed odio morbi. Faucibus purus in massa tempor nec feugiat. Id diam maecenas ultricies mi eget. Purus sit
+      amet volutpat consequat mauris nunc congue nisi. Lacus vel facilisis volutpat est velit. Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Ut ornare lectus sit amet est. Pellentesque pulvinar pellentesque habitant morbi
+      tristique senectus et. Libero volutpat sed cras ornare. Feugiat vivamus at augue eget. Amet cursus sit amet dictum sit. Massa id neque aliquam vestibulum morbi. Varius quam quisque id diam vel quam.
+    </p>
+
+    <p>
+      Pulvinar pellentesque habitant morbi tristique senectus et netus. Lobortis mattis aliquam faucibus purus. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Et netus et malesuada fames. Curabitur vitae nunc sed velit
+      dignissim sodales ut. Nunc sed id semper risus in hendrerit gravida rutrum. Suscipit tellus mauris a diam. Molestie nunc non blandit massa enim nec dui nunc. Vitae purus faucibus ornare suspendisse. Egestas congue quisque egestas diam.
+      Pellentesque eu tincidunt tortor aliquam nulla. Risus ultricies tristique nulla aliquet enim tortor at auctor. Odio facilisis mauris sit amet massa vitae. Euismod nisi porta lorem mollis aliquam ut porttitor. Lacus laoreet non curabitur gravida
+      arcu ac. Enim nulla aliquet porttitor lacus luctus. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Placerat duis ultricies lacus sed turpis.
+    </p>
+  </section>
+
+  <section class="footer-section pd-t-60 pd-b-60">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <p class="tx-medium tx-lg-16 tx-md-18 tx-sm-15 tx-12 mg-lg-t-10 hero-content">The game cycle begins every Thursday
+            and lasts till the next Thursday. <br> The draw results are announced Thursday at 4:00pm</p>
+          <a class="tx-medium tx-lg-16 tx-md-18 hero-content footer-section-link" style="display: inline-block;" href="#"><span class="icon-cta"><i data-feather="play"></i></span> Guaranteed Security</a>
+          <a class="tx-medium tx-lg-16 tx-md-18 mg-lg-l-30 hero-content footer-section-link" style="display: inline-block;" href="#"><span class="icon-cta"><i data-feather="play"></i></span> Terms & Conditions</a>
+          <a class="tx-medium tx-lg-16 tx-md-18 mg-lg-l-30 hero-content footer-section-link" style="display: inline-block;" href="#"><span class="icon-cta"><i data-feather="play"></i></span> Privacy Settings</a>
+        </div>
+        <div class="col-lg-3 pd-lg-l-90 pd-lg-r-90" style="text-align: center;">
+          <h3 class="mg-lg-t-10 mg-sm-t-20 mg-lg-b-30 mg-md-t-20 wd-md-100 wd-sm-100 wd-100 tx-lg-30 tx-semibold" style="color: #fff; border: 1px solid #fff; border-radius: 30%;">18+</h3>
+        </div>
+      </div>
+      <hr class="mg-lg-t-50" style="height: 1px; border: none; color: #fff; background-color: #fff;">
+      <div class="row">
+        <div class="col-lg-8 col-md-6">
+          <p class="tx-medium tx-lg-16 tx-md-18 mg-lg-t-10 hero-content">&copy; Shopaholic. All rights reserved.</p>
+        </div>
+        <div class="col-lg-4 col-md-6" style="text-align: center;">
+          <a class="tx-medium tx-lg-16 mg-lg-t-10 mg-md-r-5 mg-sm-r-5 mg-r-5 hero-content footer-section-link" style="display: inline-block;" href="#"><span class="icon-footer"><i data-feather="facebook"></i></span></a>
+          <a class="tx-medium tx-lg-16 mg-lg-t-10 mg-md-r-5 mg-sm-r-5 mg-r-5 mg-lg-l-30 hero-content footer-section-link" style="display: inline-block;" href="#"><span class="icon-footer"><i data-feather="twitter"></i></span></a>
+          <a class="tx-medium tx-lg-16 mg-lg-t-10 mg-md-r-5 mg-sm-r-5 mg-r-5 mg-lg-l-30 hero-content footer-section-link" style="display: inline-block;" href="#"><span class="icon-footer"><i data-feather="instagram"></i></span></a>
+          <a class="tx-medium tx-lg-16 mg-lg-t-10 mg-md-r-5 mg-sm-r-5 mg-r-5 mg-lg-l-30 hero-content footer-section-link" style="display: inline-block;" href="#"><span class="icon-footer"><i data-feather="youtube"></i></span></a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <script src="js/jquery.min.js" charset="utf-8"></script>
+  <script src="js/bootstrap.bundle.min.js" charset="utf-8"></script>
+  <script src="js/feather.min.js" charset="utf-8"></script>
+  <script src="js/dashforge.js" charset="utf-8"></script>
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+
+</html>

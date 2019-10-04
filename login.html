@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopaholic Home - Play!</title>
+
+  <!-- Font Awesome & Ionicons -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <!-- DashForge Css -->
+  <link rel="stylesheet" href="css/dashforge.css">
+  <!-- Additional Css -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:400,600&display=swap" rel="stylesheet">
+  <!-- Animation Css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Navigation Bar  -->
+  <div class="header-wrapper-login pd-t-70">
+    <nav class="navbar navbar-expand-lg fixed-top bg-gray-100 bd">
+      <a class="navbar-brand tx-bold tx-spacing--2 mg-lg-l-50 mg-md-l-40 order-1" href="index.html"><img src="images/white_logo.png" alt="Shopaholic" class="logo-size"></a>
+      <button class="navbar-toggler order-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i data-feather="menu" class="wd-20 ht-20"></i>
+      </button>
+
+      <div class="collapse navbar-collapse order-2" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mg-l-auto">
+          <li class="nav-item active pd-r-15">
+            <a class="nav-link tx-15 tx-medium" href="#">About Game <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item pd-r-15">
+            <a class="nav-link tx-15 tx-medium" href="#">How To Play</a>
+          </li>
+          <li class="nav-item pd-r-15">
+            <a class="nav-link tx-15 tx-medium" href="#">FAQ</a>
+          </li>
+          <li class="nav-item pd-r-15">
+            <a class="nav-link tx-15 tx-medium" href="#">Become An Agent</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End of navigation bar -->
+
+    <div class="form-container pd-lg-t-100 pd-md-t-70 pd-sm-t-60 pd-t-100 wd-xl-400 wd-lg-500 wd-md-400">
+      <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="tx-semibold nav-link active active-link" id="home-tab" data-toggle="tab" href="#login" role="tab" aria-controls="home" aria-selected="true">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="tx-semibold nav-link" id="profile-tab" data-toggle="tab" href="#register" role="tab" aria-controls="profile" aria-selected="false">Register</a>
+        </li>
+      </ul>
+      <div class="tab-content bd bd-gray-300 bd-t-0" id="myTabContent">
+        <!-- class pd-20 is for vertical spacing -->
+        <div class="tab-pane fade show active pd-y-20" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <form class="wd-355 bd bd-gray-300 rounded pd-30 bg-white" style="margin: 0 30px;">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" placeholder="Enter your password">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit Form</button>
+          </form>
+        </div>
+        <div class="tab-pane fade pd-y-20" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <form class="wd-355 bd bd-gray-300 rounded pd-30 bg-white" style="margin: 0 30px;">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" placeholder="Enter your password">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit Form</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js" charset="utf-8"></script>
+  <script src="js/bootstrap.bundle.min.js" charset="utf-8"></script>
+  <script src="js/feather.min.js" charset="utf-8"></script>
+  <script src="js/dashforge.js" charset="utf-8"></script>
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+
+</html>
