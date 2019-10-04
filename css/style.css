@@ -276,3 +276,16 @@ a.footer-section-link:hover {
 .nav-tabs .nav-link.active {
      color: #fdd228;
    }
+
+.forgot-password {
+  margin: -15px 10px 10px 0px;
+  text-align: right;
+}
+
+.forgot-password .forgot {
+  color: gray;
+}
+
+.forgot-password .forgot:hover {
+  color: #002e58;
+}
