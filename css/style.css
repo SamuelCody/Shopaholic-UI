@@ -34,7 +34,6 @@ p {
 }
 
 /* Solid color attached on scroll */
-
 .solid {
   background-color: rgba(0, 0, 0, 0.8);
   transition: background-color 1s ease 0s;
@@ -65,6 +64,24 @@ p {
   font-weight: bold;
 }
 
+/* Breadcrumb Custom Styles */
+.breadcrumb-style1 .breadcrumb-item {
+  font-size: 12px;
+}
+
+.breadcrumb-style1 .breadcrumb-item a {
+  color: #fff;
+}
+
+.breadcrumb-style1 .breadcrumb-item a:hover {
+  color: #fde428;
+}
+
+.breadcrumb-style1 .breadcrumb-item.active {
+  color: #fde428;
+}
+/* Breadcrumb Custom Styles End */
+
 .hero-header {
   color: #fff;
 }
@@ -81,12 +98,16 @@ p {
   background-color: #fde428;
   border: 0;
   font-weight: bold;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 400ms;
 }
 
 .play:hover {
   background-color: #fdd228;
   border: 0;
   font-weight: bold;
+  transform: scale(1.15);
 }
 
 .image-lady {
@@ -118,11 +139,15 @@ p {
   color: #fff;
   border-color: #fff;
   border-width: 0.1rem;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 400ms;
 }
 
 .cta-btn:hover {
   background-color: #002e58;
   border: 0;
+  transform: scale(1.2);
 }
 
 .icon-cta {
@@ -150,12 +175,16 @@ p {
   background-color: #002e58;
   color: #fff;
   border: 0;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 400ms;
 }
 
 .cta-2-btn:hover {
   background-color: #fff;
   color: #002e58;
   border: 0;
+  transform: scale(1.2);
 }
 
 .cta-3 {
@@ -166,12 +195,16 @@ p {
   background-color: #fdd228;
   color: #fff;
   border: 0;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 400ms;
 }
 
 .cta-3-btn:hover {
   background-color: #fff;
   color: #fdd228;
   border: 0;
+  transform: scale(1.1);
 }
 
 .footer-section {
@@ -203,6 +236,11 @@ a.footer-section-link:hover {
     text-align: center;
   }
 
+  .breadcrumb-mobile {
+    display: inline-block;
+    text-align: center;
+  }
+
   .image-lady {
     display: none;
   }
@@ -212,3 +250,29 @@ a.footer-section-link:hover {
   }
 
 }
+
+
+
+/* Styling the login page
+//
+//
+//
+ */
+
+ .header-wrapper-login {
+   background-image: linear-gradient(to bottom left, rgba(1,46,98, 0.9), rgba(7,97,164, 0.7)), url(../images/header-image.jpg);
+   background-size: cover;
+   height: 100vh;
+ }
+
+ .form-container {
+   margin: auto;
+ }
+
+ .nav-tabs .nav-link {
+   color: #fff;
+ }
+
+.nav-tabs .nav-link.active {
+     color: #fdd228;
+   }
