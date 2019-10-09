@@ -289,3 +289,11 @@ a.footer-section-link:hover {
 .forgot-password .forgot:hover {
   color: #002e58;
 }
+
+
+/* Styling the process page */
+
+.arrow {
+  font-size: 100px;
+  color: #fdd228;
+}
